@@ -1,0 +1,10 @@
+semantic-router
+numpy
+pandas
+scikit-learn
+torch
+transformers
+requests
+flask
+uvicorn
+fastapi

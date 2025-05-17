@@ -127,6 +127,6 @@ class SemanticRouter:
             logging.error(f"Error processing query: {request.query} | Error: {e}")
             return {"error": str(e)} 
 
-# Factory function to create router instance
+# Factory function to create router instance 
 def create_router(crud):
     return SemanticRouter(crud)
